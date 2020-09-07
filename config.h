@@ -26,6 +26,8 @@
  *
  *  For each URL, change the base parameter to the name of the targeted device
  *
+ *  You can find more options here: https://github.com/jishi/node-sonos-http-api
+ *
  *  It currently is configured for KQED-FM, a local NPR station, to play on the kitchen speaker
  *  Configure to your station of choice!
  *
