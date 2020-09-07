@@ -5,6 +5,7 @@ A simple ESP8266 button for starting or stopping a [TuneIn](https://tunein.com) 
 ## Prerequisites
 
 * An ESP8266 with an LED connected to any I/O pin and a reset button wired to it
+* The standard ESP8266 libraries in the Arduino IDE, along with the [ArduinoJson 6 library](https://arduinojson.org/).
 * A server running [node-sonos-http-api](https://github.com/jishi/node-sonos-http-api)
     * Server can either be located on the same subnet as Sonos (easiest)
     * If server is on a different subnet, you will need an IGMP proxy between the subnets for multicast forwarding
